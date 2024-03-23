@@ -13,8 +13,6 @@ app.get('/products', async (req, res) => {
   res.json(request)
 })
 
-
-
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
